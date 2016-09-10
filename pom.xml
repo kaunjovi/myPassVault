@@ -6,6 +6,17 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<description>Vault for passwords</description>
 
+
+	<dependencies>
+
+		<!-- Put some logs, for when there will be an issue. There will be one. -->
+		<dependency>
+			<groupId>ch.qos.logback</groupId>
+			<artifactId>logback-classic</artifactId>
+			<version>1.1.5</version>
+		</dependency>
+	</dependencies>
+
 	<build>
 		<plugins>
 
